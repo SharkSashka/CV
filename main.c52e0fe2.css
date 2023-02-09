@@ -1,0 +1,180 @@
+html, body, div {
+  font-family: Roboto, Helvetica, sans-serif;
+}
+
+.main-container {
+  width: 100%;
+  min-width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.main-container > * {
+  flex: 0 0 auto;
+}
+
+.left-column, .right-column {
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+}
+
+.left-column {
+  color: white;
+  background-color: rgba(3, 89, 94, 100);
+  width: 25em;
+  text-align: center;
+}
+
+.right-column {
+  background-color: white;
+  margin-left: 2.5em;
+  max-width: 77em;
+}
+
+.left-col-row.name {
+  font-size: 32pt;
+}
+
+.divider {
+  background-color: rgba(255, 255, 255, 0.8);
+  height: .1em;
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
+.left-col-row.position {
+  font-size: 18pt;
+}
+
+.left-col-section {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.left-col-section .section-title {
+  font-size: 18pt;
+  background-color: rgb(2, 69, 73);
+  margin-bottom: 0.75em;
+}
+
+.section-body {
+  font-size: 16pt;
+}
+
+.address-title, .phone-title, .email-title, .birthdate-title, .social-title{
+  font-weight: bold;
+}
+
+.spacer {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.skill-box, .edu-box {
+  margin-bottom: 1em;
+}
+
+.skill-box__completeness {
+  width: 15em;
+  height: .5em;
+  background-color: rgb(2, 69, 73);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.edu-box__title {
+  font-size: 14pt;
+}
+
+.edu-box__speciality {
+  margin-top: .5em;
+  font-size: 12pt;
+}
+
+.edu-box__dates {
+  font-size: 12pt;
+  margin-bottom: .25em;
+}
+
+.advanced {
+  width: 15em;
+  height: .5em;
+  background-color: white;
+}
+
+.intermediate {
+  width: 10em;
+  height: .5em;
+  background-color: white;
+}
+
+.good {
+  width: 12.5em;
+  height: .5em;
+  background-color: white;
+}
+
+.skill-box__title {
+  font-size: 12pt;
+  margin-bottom: .25em;
+}
+
+.right-col-section .section-title {
+  font-size: 28pt;
+  font-weight: bold;
+}
+
+.right-col-section .section-body .summary {
+  margin-top: 1em;
+}
+
+.right-column {
+  margin-right: 2.5em;
+}
+
+.right-col-section {
+  margin-bottom: 1em;
+}
+
+.experience .dates {
+  color: slategrey;
+  font-size: 10pt;
+  font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin-bottom: 1em;
+  margin-top: .5em;
+}
+
+.experience .position {
+  margin-top: .75em;
+  font-weight: bolder;
+}
+
+.experience .description {
+  margin-bottom: .75em;
+  font-weight: 300;
+}
+
+.experience .duties ul {
+  margin-block-start: .35em;
+  margin-bottom: .5em;
+}
+
+.technologies ul {
+  display: inline;
+  padding-inline-start: 0;
+  list-style: none;
+}
+
+.technologies li {
+  display: inline;
+  padding: 0;
+}
+
+.technologies li:not(:last-of-type)::after {
+  content: ', ';
+}
+
+
+/*# sourceMappingURL=/main.c52e0fe2.css.map */
